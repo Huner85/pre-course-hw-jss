@@ -1,6 +1,6 @@
-let number = Math.floor(Math.random() * 100);
-if (number % 2 === 0) {
-    console.log(number, ': не четное');
+let number1 = Math.floor(Math.random() * 100);
+if (number1 % 2 === 0) {
+    console.log(number1, ': не четное');
 } else {
-    console.log(number, ': не четное');
+    console.log(number1, ': не четное');
 }

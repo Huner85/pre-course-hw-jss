@@ -1,2 +1,6 @@
 let number = Math.floor(Math.random() * 100);
-console.log(`Сгенерировано число: ${number}, ${number % 2 === 0 ? 'четное' : 'нечетное'}`);
+if (number % 2 === 0) {
+    console.log(number, ': не четное');
+} else {
+    console.log(number, ': не четное');
+}
